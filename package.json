@@ -1,0 +1,19 @@
+{
+  "name": "taskecommerceweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:test:headless": "npx cypress run",
+    "run:test:headed": "npx cypress open"
+  },
+  "author": "Adrian Dubel",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.9.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "typescript": "^5.4.5"
+  }
+}
